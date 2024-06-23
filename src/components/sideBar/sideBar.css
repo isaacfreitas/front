@@ -1,0 +1,9 @@
+.sideBar{
+    height: 100%;
+    min-width: 10%;
+    background-color: red;
+    padding: 0px;
+    /* background-color: lightgray; */
+    margin: 0px;
+    margin-left: 0%;
+}
