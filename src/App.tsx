@@ -1,8 +1,8 @@
 import React , {useState} from 'react';
 import './App.css';
-import Header from './components/header/header'
-import Calendar from './components/calendar/calendar';
-import SideBar from './components/sideBar/sideBar';
+import Header from './models/components/header/header'
+import Calendar from './models/components/calendar/calendar';
+import SideBar from './models/components/sideBar/sideBar';
 
 function App() {
   return (
