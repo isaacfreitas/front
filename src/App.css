@@ -5,13 +5,10 @@
 .container {
 
   display: flex;
-  height: 100%;
-
+ 
   background-color: #980f3b;
 
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
 
   font-size: calc(40px + 2vmin);
   color: #282c34;
@@ -22,7 +19,7 @@
 
   border-radius: 0px;
   width: 100%;
-  height: 90px;
+  height: 699px;
 
   display: flex;
   justify-content: space-between;

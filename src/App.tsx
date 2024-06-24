@@ -1,4 +1,4 @@
-import React from 'react';
+import React , {useState} from 'react';
 import './App.css';
 import Header from './components/header/header'
 import Calendar from './components/calendar/calendar';
@@ -13,7 +13,6 @@ function App() {
         <SideBar />
         <Calendar />
       </div>
-
     </div>
   );
 }
