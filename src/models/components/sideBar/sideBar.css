@@ -1,9 +1,16 @@
-.sideBar{
-    height: 100%;
-    min-width: 10%;
-    background-color: red;
-    padding: 0px;
-    /* background-color: lightgray; */
-    margin: 0px;
-    margin-left: 0%;
+.sideBar {
+
+    background-color: rgb(20, 121, 134);
+
+
+    align-items: center;
+
+}
+
+.icons{
+   
+        width: 100px;  /* Define a largura fixa */
+        height: 100px; /* Define a altura fixa */
+        padding: 20px;
+    
 }

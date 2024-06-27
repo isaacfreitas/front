@@ -1,41 +1,40 @@
-.App {
-  text-align: center;
-}
+
+/*  */
 
 .container {
 
   display: flex;
- 
-  background-color: #980f3b;
-
   flex-direction: column;
-
-  font-size: calc(40px + 2vmin);
+  
+  
   color: #282c34;
+
 }
 
 .App-body {
-  background: #ffecb3;
-
-  border-radius: 0px;
-  width: 100%;
-  height: 699px;
+  
 
   display: flex;
-  justify-content: space-between;
-  max-width: 100%;
-  min-height: 100%;
-  /* Espaço entre as divs */
-  /* ou use justify-content: center; para centralizar ou outras propriedades conforme necessário */
+  border: 1px solid black;
+  height: 80%;
+            
+}
+.side{
+  
+  
+  
+  width: 10%; /* Largura da primeira div */
+  
+}
+.content {
+ /*  background-color: lightcoral; */
+  width: 90%; /* Largura da segunda div */
+  
+  /* border: 1px solid black; */
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 
-.Sidebar {
-  /* flex:0 1 auto; */
-  flex-grow: 0;
-  height: 100%;
-}
-
-.Calendar {
-  /* flex:1 1 auto; */
-  flex-grow: 1;
-}

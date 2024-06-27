@@ -2,11 +2,14 @@ import './header.css';
 
 function Header() {
   return (
-  
+
     <div className='header'>
-        nome do app
+      <div className="icons">
+        <p>BICA Agenda</p> 
+      </div>
+      <img src="logo192.png" alt="" />
+
     </div>
-  
   );
 }
 
