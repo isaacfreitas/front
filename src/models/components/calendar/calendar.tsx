@@ -27,7 +27,7 @@ const Calendar: React.FC = () => {
 
   return (
     <div className="calendar">
-      <Box>
+      <Box className="box">
         <Typography variant='h4'>Escolha o dia da marcação</Typography>
         <LocalizationProvider
           localeText={ptBR.components.MuiLocalizationProvider.defaultProps.localeText}
@@ -49,16 +49,15 @@ const Calendar: React.FC = () => {
             onChange={(newValue) => setSelectedDate(newValue)}
           />
         </LocalizationProvider>
-     
+
       </Box>
       <button onClick={handleButtonClick}>
         Confirmar
       </button>
-      
     </div>
 
-    
-    
+
+
 
   );
 }
